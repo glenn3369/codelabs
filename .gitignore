@@ -1,0 +1,40 @@
+# .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MongoDB database files
+db_data/
+
+# Docker env files
+docker-compose.override.yml
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python build artifacts
+*.egg-info/
+dist/
+build/
